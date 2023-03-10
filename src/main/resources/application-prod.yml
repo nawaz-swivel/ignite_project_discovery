@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: ${EUREKA_SERVER_URL:eureka_server_address/eureka/}
+      defaultZone: ${EUREKA_SERVER_URL:http://ignitediscovery-env.eba-77absjbd.us-east-1.elasticbeanstalk.com/eureka/}
 
 ## application configuration
 spring:
