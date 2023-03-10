@@ -10,7 +10,7 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_SERVER_URL:http://ignitediscovery-env.eba-77absjbd.us-east-1.elasticbeanstalk.com/eureka/}
 
-## application configuration
+## application configurations
 spring:
   application:
     name: ${APPLICATION_NAME:ignite-discovery-service}
