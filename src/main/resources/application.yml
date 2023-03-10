@@ -14,5 +14,5 @@ eureka:
 spring:
   application:
     name: ${APPLICATION_NAME:ignite-discovery-service}
-#  profiles:
-#    active: prod
+  profiles:
+    active: prod
