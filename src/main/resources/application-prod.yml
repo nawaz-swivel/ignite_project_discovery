@@ -1,6 +1,6 @@
 ## servlet configuration
 server:
-  port: ${PORT:5000}
+  port: ${PORT:8761}
 
 ## eureka server configuration
 eureka:
@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: ${EUREKA_SERVER_URL:http://ignitediscovery-env.eba-77absjbd.us-east-1.elasticbeanstalk.com/eureka/}
+      defaultZone: ${EUREKA_SERVER_URL:http://discovery_instance:8761/eureka}
 
 ## application configurations
 spring:
