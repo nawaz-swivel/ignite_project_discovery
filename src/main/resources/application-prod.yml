@@ -7,8 +7,8 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    service-url:
-      defaultZone: ${EUREKA_SERVER_URL:http://discovery_instance:8761/eureka}
+#    service-url:
+#      defaultZone: ${EUREKA_SERVER_URL:http://discovery_instance:8761/eureka}
 
 ## application configurations
 spring:
