@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: ${EUREKA_SERVER_URL:http://3.90.11.49:8761/eureka}
+      defaultZone: ${EUREKA_SERVER_URL:http://18.212.198.116:8761/eureka}
 
 ## application configurations
 spring:
